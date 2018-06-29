@@ -21,5 +21,10 @@
    <p>git status,查看当前有无更改，git diff 查看更改的地方，git log 查看前面
     几个版本，git reset HEAD^（HEAD~100）回退到哪个版本</p>
    <p>git log --pretty=online可以查看版本号，一种便捷的更改版本方法：git reset --hard 版本号！！</p>
+
+<p>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
+
+    场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD 'filename'，
+    就回到了场景1，第二步按场景1操作。</p>
 </body>
 </html>
