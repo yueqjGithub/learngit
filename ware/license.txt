@@ -9,3 +9,5 @@
 
 
 opacity创建了分支opacity，作为他的分支，完成工作后合并至dev分支，dev分支稳定后并入master分支，需要合并分支历史 使用 git merge --no-ff(fast forward) -m"somemsg" dev
+
+假比说我修复了一个BUG嘛
