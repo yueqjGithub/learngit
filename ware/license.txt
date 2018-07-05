@@ -4,3 +4,5 @@
 
 这是在feature分支上更改的license.txt
 
+
+分支管理策略
